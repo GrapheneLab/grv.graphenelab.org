@@ -1,0 +1,472 @@
+body {
+    background-color: rgba(245, 250, 251, 0.7);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    height: auto;
+    color: #000000;
+    background-color: #f4f9fa !important;
+
+}
+
+.container {
+    max-width: 100%;
+    padding: 0;
+    height: 4180px;
+}
+
+.background-img {
+    height: 1000px;
+    background: url('img/bcg-desktop.jpg') 100% 100% no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    height: 27.7px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 105.5px 0 100px;
+}
+
+.bitmap {
+    object-fit: contain;
+    height: 27.7px;
+}
+
+a {
+    color: #000000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:first-child {
+    margin-right: 63px;
+}
+
+.intro {
+    margin-top: 122.3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 220px;
+}
+
+.bitmap-copy {
+    height: 84px;
+    object-fit: contain;
+}
+
+.fast-scalable-low {
+    height: 30px;
+    margin-top: 8px;
+    line-height: 1.67;
+    text-align: center;
+    color: #000000;
+}
+
+.gravity-is-a-decentr {
+    width: 778px;
+    height: 90px;
+    margin-top: 49px;
+    font-size: 24px;
+    line-height: 1.25;
+    text-align: center;
+    color: #575e72;
+}
+
+.explore-gravity-road {
+    height: 30px;
+    margin-top: 69px;
+    line-height: 1.67;
+    text-align: center;
+    color: #5629ff !important;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.gravity-roadmap {
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 0.38;
+    letter-spacing: -2px;
+    text-align: center;
+    color: #000000;
+}
+
+.gravity-roadmap-mobile {
+    display: none;
+}
+
+.explore-a-timeline-s {
+    width: 530px;
+    margin: 40px 0 71px 0;
+    line-height: 1.33;
+    text-align: center;
+    color: #575e72;
+}
+
+.roadmap {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*margin-bottom: 94px;*/
+}
+
+.path {
+    width: 4px;
+    height: 2980px;
+    background-color: #000000;
+    content: "";
+    position: absolute;
+
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px !important;
+    width: auto;
+    height: 110px;
+}
+
+.idea-research {
+    color: #bcc0d2 !important;
+}
+
+.year-month {
+    width: 371px;
+}
+
+.help {
+
+}
+
+.year-month-mobile {
+    display: none;
+}
+
+.year-2017 {
+    height: 24px;
+    opacity: 0.1;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 0.5;
+    letter-spacing: -4px;
+    text-align: right;
+    color: #000000;
+}
+
+.year-2018 {
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 0.38;
+    letter-spacing: -5.3px;
+    text-align: right;
+    color: #000000;
+}
+
+.block-circle {
+    width: 98px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-white {
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border: solid 4px #000000;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.circle-green {
+    width: 20px;
+    height: 20px;
+    background-color: #8cffc3;
+    border: solid 4px #000000;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.rectangle-block {
+    width: 371px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+.rectangle {
+    max-width: 90%;
+    height: 90px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.06);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.small-month {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.09;
+    text-align: right;
+    color: #000000;
+}
+
+.big-month {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 0.67;
+    text-align: right;
+    color: #000000;
+}
+
+.mid-month {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 0.86;
+    text-align: right;
+    color: #000000;
+}
+
+.small-circle {
+    width: 16px;
+    height: 16px;
+}
+
+.year-2019 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 0.38;
+    letter-spacing: -2.3px;
+    text-align: right;
+    color: #dce0e1;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+}
+
+.gravity-copy {
+     opacity: 0.4;
+     font-size: 14px;
+     letter-spacing: -0.2px;
+     text-align: center;
+     color: #4a5060;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        height: 4160px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .background-img {
+        background-image: url('img/bcg-mobile.jpg');
+        width: 100%;
+        background-size: auto;
+        background-position: left;
+    }
+
+    .bitmap {
+        display: none !important;
+    }
+
+    header {
+        width: 100%;
+        height: 21px;
+        padding: 30px 66.5px 0 66.5px;
+    }
+
+    .links {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .gravity-is-a-decentr {
+        min-width: 312px;
+        width: 90%;
+        height: 416px;
+    }
+
+    .explore-gravity-road {
+        display: none;
+    }
+
+    .gravity-roadmap {
+        display: none;
+    }
+
+    .gravity-roadmap-mobile {
+        display: inherit;
+        font-size: 64px;
+        font-weight: bold;
+        line-height: 0.38;
+        letter-spacing: -2px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .explore-a-timeline-s {
+        width: 333px;
+        height: 72px;
+    }
+
+    .content {
+        width: 375px;
+    }
+
+    .year-month {
+        display: none;
+    }
+
+    .roadmap {
+        justify-content: left;
+        align-items: left;
+    }
+
+    .path {
+        left: 25px;
+    }
+
+    .block {
+        font-size: 18px !important;
+        height: 120px;
+    }
+
+    .block-circle {
+        width: 54px;
+    }
+
+    .rectangle-block {
+        height: 118px;
+        width: 299px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+    }
+
+    .year-month-mobile {
+        display: inherit;
+        margin-bottom: 16px;
+    }
+
+    .rectangle {
+        height: 72px;
+    }
+
+    .year-2017 {
+        font-size: 48px !important;
+        margin-top: 10px;
+    }
+
+    .year-2018 {
+        margin-top: 54px;
+        font-size: 64px !important;
+    }
+
+    .small-month {
+        font-size: 22px !important;
+        margin-bottom: 6px !important;
+    }
+
+    .big-month {
+        margin-bottom: 8px !important;
+    }
+
+    .non-month {
+        height: 10px;
+    }
+
+    .help {
+        display: none;
+    }
+
+    .small-block {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 22px !important;
+        width: auto;
+        height: 90px;
+    }
+
+    .last-small-block {
+        margin-bottom: 20px;
+    }
+
+    .mid-month {
+        font-size: 28px;
+        margin-bottom: 6px;
+    }
+
+    .year-2019 {
+        margin-top: 45px;
+    }
+
+    .idea-research > .rectangle-block {
+        /*margin-top: 25px;*/
+    }
+
+    .year {
+        height: 60px;
+    }
+
+    footer {
+        height: 30px;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+}
